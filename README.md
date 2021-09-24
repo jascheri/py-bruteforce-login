@@ -1,2 +1,3 @@
 # py-bruteforce-login
-Takes a host IP, a list of users and a shadow table.  Compares the documents to find a match and then uses the credentials to gain access to the server.
+Compares a list of usernames with a shadow table to find a matching password.
+uses matched credentials to connect to a given host IP
